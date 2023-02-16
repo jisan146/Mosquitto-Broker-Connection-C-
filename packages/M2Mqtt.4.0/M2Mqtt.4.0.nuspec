@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>M2Mqtt</id>
+    <version>4.0</version>
+    <title>M2Mqtt - MQTT Client Library for .Net and WinRT</title>
+    <authors>Paolo Patierno</authors>
+    <owners>Paolo Patierno</owners>
+    <licenseUrl>https://m2mqtt.codeplex.com/license</licenseUrl>
+    <projectUrl>http://m2mqtt.codeplex.com/</projectUrl>
+    <iconUrl>https://download-codeplex.sec.s-msft.com/Download?ProjectName=m2mqtt&amp;DownloadId=659281&amp;Build=20885</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>M2Mqtt is a MQTT client available for all .Net platform (.Net Framework, .Net Compact Framework and .Net Micro Framework) and WinRT platform (Windows 8.1 and Windows Phone 8.1) for Internet of Things (IoT) and Machie To Machine (M2M) communication.</description>
+    <summary>M2Mqtt is a MQTT client available for all .Net platform (.Net Framework, .Net Compact Framework and .Net Micro Framework) and WinRT platform (Windows 8.1 and Windows Phone 8.1) for Internet of Things (IoT) and Machie To Machine (M2M) communication.</summary>
+    <releaseNotes>1. Support for old 3.1.0 and new 3.1.1 OASIS specification;
+2. Added session management (however without persistence) for supporting for 3.1.1 specification;
+3. Keep Alive ping request disabled if keep alive timeout is set to zero;
+4. Inflight queue size managed;
+5. Improvement on receiving thread with some modification on underlying network channel;
+6. Bug fixing from issues on CodePlex panel;
+7. Released new version 4.0;</releaseNotes>
+    <copyright>Paolo Patierno Copyright 2014</copyright>
+    <tags>m2m mqtt queue messaging internetofthings iot cloud netmf embedded micro netduino micro-framework hardware winrt windows8 windows8.1 windowsphone windowsphone8.1</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETMicroFramework4.2" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETMicroFramework4.3" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
